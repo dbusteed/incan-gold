@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="52.917mm" height="79.375mm" version="1.1" viewBox="0 0 52.917 79.375" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient31698" x1="235.33" x2="264.45" y1="-117.29" y2="-97.066" gradientTransform="matrix(.28788 0 0 .28788 -91.982 162.95)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#0f52ba" offset="0"/>
+   <stop stop-color="#578cdc" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(-27.077 -60.563)">
+  <path x="27.076681" y="60.562786" width="52.916668" height="79.375" d="m29.723 60.563h47.625a2.6458 2.6458 45 0 1 2.6458 2.6458v74.083a2.6458 2.6458 135 0 1-2.6458 2.6458h-47.625a2.6458 2.6458 45 0 1-2.6458-2.6458v-74.083a2.6458 2.6458 135 0 1 2.6458-2.6458z" fill="#f4f4f4" stroke-width=".20646"/>
+  <g transform="matrix(.26458 0 0 .26458 162.15 -66.718)" style="shape-inside:url(#rect3472);white-space:pre" aria-label="1">
+   <path d="m-429.27 663.22v-15h8.9062v-27.656h-9.8438v-13.734l32.109-7.9219v49.312h7.2656v15z"/>
+  </g>
+  <ellipse transform="rotate(-34.077)" cx="-19.916" cy="132.04" rx="5" ry="3.5917" fill="url(#linearGradient31698)" opacity=".8"/>
+ </g>
+</svg>

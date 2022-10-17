@@ -1,0 +1,32 @@
+.chat {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chat-messages-container {
+    overflow-y: auto;
+}
+
+.chat-messages {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-input {
+    margin-top: auto;
+    padding-top: 1rem;
+}
+
+.chat-messages li {
+    padding-bottom: 0.25rem;
+}
+
+@media only screen and (max-width : 450px) {
+    .chat {
+        height: 100vh;
+        width: 70vw;
+    }
+}

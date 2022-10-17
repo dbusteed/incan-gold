@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**************/
+/* MAIN STUFF */
+/**************/
+
+@font-face {
+  font-family: 'Bevan';
+  src: local('Bevan'), url(./fonts/Bevan-Regular.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  margin-right: 0;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-background {
+  background-image: url('./../public/assets/jungle_background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+}
+
+
+/********/
+/* GAME */
+/********/
+
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.players {
+  flex: 1 0 0;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.game-board {
+  flex: 4 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem 2rem;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.players-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.player-card {
+  padding: 1.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.player-card-disable {
+  opacity: 60%;
+}
+
+.player-card-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.player-card-name {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/********/
+/* CHAT */
+/********/
+
+
+
+.people-container {
+  flex: 1 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-font {
+  font-family: Bevan;
+}
+
+
+::-webkit-scrollbar {
+  width: .5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

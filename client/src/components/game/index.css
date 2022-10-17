@@ -1,0 +1,103 @@
+.card {
+  display: flex;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.card-svg {
+  width: 150px;
+  height: 225px;
+}
+
+.game-main {
+  display: flex;
+  flex-direction: column;
+  flex: 5 0 0;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.status-bar {
+  display: flex;
+  flex-direction: row;
+  padding: .75rem 1rem;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.outer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+
+.player-hud {
+  width: 30vw;
+  display: flex;
+  padding: 1rem;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.player-hud-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-hud-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width : 450px) {
+  .game-main {
+    padding: 0.75rem;
+  }
+
+  .status-bar {
+    display: none;
+  }
+
+  .player-hud {
+    margin-top: 1rem;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .player-hud-text {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+
+  .player-hud-buttons {
+    justify-content: space-between;
+  }
+
+  .player-hud-buttons button {
+    width: 50%;
+  }
+
+  .card {
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .card-svg {
+    width: 100px;
+    height: 150px;
+  }  
+
+  .game-main {
+    height: 91vh;
+  }
+}
