@@ -55,3 +55,7 @@ Here's the steps I took to deploy the app on a RaspberryPi:
 1. That's it! Test everything by running `node index.mjs`
     * this will run the Express server, and server the React client from the `build/` folder
     * there's a few options to run this in the background, for example: `nohup node index.mjs &`
+
+## Thanks
+
+https://adrianturcato.medium.com/deploying-web-app-react-express-nodejs-socket-io-and-ubuntu-20-04-lts-x64-8879d9ebc267
